@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.shoeparent{
+    display: flex;
+    padding: 4%;
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+    height: 80vh;
+    width: 75vw;
+    margin-left: 10%;
+    justify-items: center;
+    align-items: center;
+}
+.text{
+    color: white;
+}
+.text h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.shoe img:hover{
+    transform: scale(1.5);
+}
+.shoe{
+    width: 50%;
+    height: 150%;
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
