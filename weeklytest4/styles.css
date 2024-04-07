@@ -1,0 +1,236 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #333333;
+    color: aliceblue;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%;
+    height: 10vh;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.tags {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.tags a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.hero {
+    height: 90vh;
+    width: 100vw;
+    background-image: url('https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.text {
+    color: #FFFFFF;
+    padding: 0 20px;
+    z-index: 1; 
+}
+
+.text {
+    color: #FFFFFF;
+    padding: 0 20px;
+}
+
+.text h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    font-size: 1.8rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.text button {
+    width: 200px;
+    height: 50px;
+    background-color: #FCFAF4;
+    color: #333333;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.text button:hover {
+    background-color: transparent; 
+}
+.servicetext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    padding-top: 3%;
+    margin-bottom: 2%;
+    
+}
+.servicetext h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.servicetext h3{
+    font-size: 1.5em;
+    font-weight: normal;
+    
+}
+main{
+    background-color: #F2F2F2;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    height: 130vh;
+    justify-content: space-evenly;
+}
+.card{
+    height:60vh;
+    width: 28vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4%;
+    padding: 2%;
+    
+}
+.card img{
+    height: 45%;
+    border-radius: 50%;
+    margin-bottom: 8%;
+}
+.card h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5%;
+}
+.card p{
+font-size: 1.3em;
+}
+.abhead{
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.abhead h1{
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.abhead p{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.txtabout{
+    padding: 3%;
+    padding-bottom: 0%;
+}
+.txtabout h1{
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1%;
+}
+.txtabout p{
+    font-size: 1.2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.txtabout li{
+    font-size: 1.2em;
+    margin-bottom: 1%;
+}
+.contact{
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.details{
+    width: 45%;
+    height: 60vh;
+    
+}
+.form{
+    width: 45%;
+    height: 80vh;
+   
+    
+}
+.form input{
+    width: 95%;
+    height: 50px;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+.form button{
+    height: 50px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+}
+.addr{
+    display: flex;
+    
+}
+.addr i{
+    margin-right: 20px;
+}
+.details p{
+    margin-bottom: 20px;
+}
